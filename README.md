@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SysDev Group
 
-## Getting Started
+## Woodwork CRM
 
-First, run the development server:
+Obs: Não esqueça de mover a task quando começar a trabalhar para <b>in progress</b>.
+
+Clonar o repostório e radar o projeto localmente.
+
+Certifique que está com git instalado
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale o Yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install --global yarn
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Verifique se foi instalado
 
-## Learn More
+```bash
+yarn --version
+```
 
-To learn more about Next.js, take a look at the following resources:
+Agora clone o repositório dentro c:/seu-usuario crie um diretório com o nome de project em seguida entre nele e rode o comando abaixo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git clone git@github.com:andrelucasmartins/woodwork-crm.git
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Agora entre no diretório woodwork-crm, que foi criado e rode no console:
 
-## Deploy on Vercel
+```bash
+yarn dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Parabéns 🎉😍
+Pronto seu projeto já está rodando localmente.
+Para interromper o servidor, vá até o terminal:
+Pressione o ctrl+c.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Agora, está finalizado sua task mova para done no Jira.
+
+E fim.
